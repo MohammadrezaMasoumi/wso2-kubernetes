@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wso2-ingress
+spec:
+  rules:
+  - host: #TODO
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: #TODO
+            port:
+              number: #TODO
+  tls:
+  - hosts:
+    - #TODO
