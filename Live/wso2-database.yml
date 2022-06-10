@@ -19,7 +19,7 @@ spec:
         tier: mysql
     spec:
       containers:
-      - image: repo.payrad.org/mysql:5.7.37
+      - image: repo.test.org/mysql:5.7.37
         name: mysql
         env:
                 #        - name: MYSQL_ROOT_USER
@@ -42,7 +42,7 @@ spec:
           claimName: wso2-mysql-pv-claim
 
       imagePullSecrets:
-        - name: payrad-repo
+        - name: test-repo
 ---
 apiVersion: v1
 kind: Service

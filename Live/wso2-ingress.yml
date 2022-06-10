@@ -15,7 +15,7 @@ metadata:
   namespace: wso2
 spec:
   rules:
-  - host: gateway.payrad.org
+  - host: gateway.test.org
     http:
       paths:
       - backend:
@@ -23,4 +23,4 @@ spec:
           servicePort: 3000
   tls:
   - hosts:
-          - gateway.payrad.org
+          - gateway.test.org

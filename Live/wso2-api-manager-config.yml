@@ -8,7 +8,7 @@ data:
     [transport.https.properties]
     proxyPort = 443
     [server]
-    hostname = "gateway.payrad.org"
+    hostname = "gateway.test.org"
     #offset=0
     base_path = "${carbon.protocol}://${carbon.host}:${carbon.management.port}"
     #discard_empty_caches = false
